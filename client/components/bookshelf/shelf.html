@@ -1,10 +1,6 @@
-<div class="row">
-    <div class="col-xs-3" style="height: 0px">
-        <img src="../../resources/images/women/1.jpg" style="width: 29px;height: 41px;position: fixed;top: 50px">
-    </div>
-    <div class="col-xs-3" style="height: 0px">
-        <img src="../../resources/images/women/1.jpg" style="width: 29px;height: 41px;position: fixed;top: 50px">
-    </div>
+<div class="row pic" *ngFor="let woman of women">
+    {{woman.name}}
+    <img  src="../../resources/images/women/1.jpg" class="pic1 img-rounded">
 
 </div>
 <div class="row shelf">

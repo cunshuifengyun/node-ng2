@@ -1,3 +1,22 @@
 .shelf {
-    height: 100%;
+
+}
+.pic img {
+    width: 50px;
+    height: 70px;
+    margin-top: 5px;
+    position: absolute;
+
+}
+.pic1 {
+    left: 12%;
+}
+.pic2 {
+    left: 32%;
+}
+.pic3 {
+    left: 52%;
+}
+.pic4 {
+    left: 72%;
 }
